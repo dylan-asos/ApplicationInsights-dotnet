@@ -1,4 +1,4 @@
-﻿namespace Microsoft.ApplicationInsights.DependencyCollector.W3C
+﻿namespace Microsoft.ApplicationInsights.W3C
 {
     using System.Diagnostics;
     using System.Linq;

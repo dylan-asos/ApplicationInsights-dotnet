@@ -1,4 +1,4 @@
-﻿namespace Microsoft.ApplicationInsights.DependencyCollector.W3C
+﻿namespace Microsoft.ApplicationInsights.W3C
 {
     using System.Diagnostics;
     using System.Linq;
@@ -6,7 +6,7 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
-    public class W3CActivityExtentionsTests
+    public class W3CActivityExtensionsTests
     {
         private const string TraceId = "01010101010101010101010101010101";
         private const string ParenSpanId = "0202020202020202";
