@@ -3,6 +3,7 @@
     using System;
     using System.ComponentModel;
     using System.Diagnostics;
+    using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Linq;
     using System.Text.RegularExpressions;
@@ -220,6 +221,8 @@
         /// <param name="telemetry">Telemetry item.</param>
         /// <param name="forceUpdate">Force update if properties are already set.</param>
         [EditorBrowsable(EditorBrowsableState.Never)]
+        [SuppressMessage("Microsoft.Usage", "CA1801:ReviewUnusedParameters", Justification =
+            "This method has different code for Net45/NetCore")]
         public static void UpdateTelemetry(this Activity activity, ITelemetry telemetry, bool forceUpdate)
         {
             if (activity == null)
