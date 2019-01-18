@@ -10,9 +10,8 @@ static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.SetTracestate(thi
 static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.GetTraceId(this System.Diagnostics.Activity activity) -> string
 static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.GetSpanId(this System.Diagnostics.Activity activity) -> string
 static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.GetParentSpanId(this System.Diagnostics.Activity activity) -> string
-static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.UpdateTelemetry(this System.Diagnostics.Activity activity, Microsoft.ApplicationInsights.Channel.ITelemetry telemetryItem, bool forceUpdate) -> void
+static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.UpdateTelemetry(this System.Diagnostics.Activity activity, Microsoft.ApplicationInsights.Channel.ITelemetry telemetry, bool forceUpdate) -> void
 Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer
-Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer.W3COperationCorrelationTelemetryInitializer() -> void
-Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer.Initialize(Microsoft.ApplicationInsights.Channel.ITelemetry telemetryItem) -> void
+Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer.Initialize(Microsoft.ApplicationInsights.Channel.ITelemetry telemetry) -> void
 Microsoft.ApplicationInsights.W3C.W3CUtilities
 static Microsoft.ApplicationInsights.W3C.W3CUtilities.GenerateTraceId() -> string

@@ -220,7 +220,7 @@
         /// <param name="telemetry">Telemetry item.</param>
         /// <param name="forceUpdate">Force update if properties are already set.</param>
         [EditorBrowsable(EditorBrowsableState.Never)]
-        public static void UpdateTelemetry(this Activity activity, ITelemetry telemetry,  bool forceUpdate)
+        public static void UpdateTelemetry(this Activity activity, ITelemetry telemetry, bool forceUpdate)
         {
             if (activity == null)
             {
