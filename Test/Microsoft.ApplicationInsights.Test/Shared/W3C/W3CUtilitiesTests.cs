@@ -1,7 +1,6 @@
-﻿using System.Text.RegularExpressions;
-
-namespace Microsoft.ApplicationInsights.W3C
+﻿namespace Microsoft.ApplicationInsights.W3C
 {
+    using System.Text.RegularExpressions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
@@ -21,7 +20,7 @@ namespace Microsoft.ApplicationInsights.W3C
         public void GenerateSpanIdGeneratesValidId()
         {
             var spanId = W3CUtilities.GenerateSpanId();
-            Assert.IsTrue(TraceIdRegex.IsMatch(spanId));
+            Assert.IsTrue(SpanIdRegex.IsMatch(spanId));
         }
 
     }
