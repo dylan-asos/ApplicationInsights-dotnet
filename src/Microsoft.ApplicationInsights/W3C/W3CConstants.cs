@@ -1,12 +1,9 @@
 ﻿namespace Microsoft.ApplicationInsights.W3C
 {
-    using System.ComponentModel;
-
     /// <summary>
     /// W3C constants.
     /// </summary>
-    [EditorBrowsable(EditorBrowsableState.Never)]
-    public static class W3CConstants
+    internal static class W3CConstants
     {
         /// <summary>
         /// Trace-Id tag name.

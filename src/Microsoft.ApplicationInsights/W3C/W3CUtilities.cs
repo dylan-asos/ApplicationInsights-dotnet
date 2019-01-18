@@ -8,9 +8,10 @@
     /// W3C distributed tracing utilities.
     /// </summary>
     [EditorBrowsable(EditorBrowsableState.Never)]
-    public class W3CUtilities
+    public static class W3CUtilities
     {
         private static readonly uint[] Lookup32 = CreateLookup32();
+
         /// <summary>
         /// Generates random trace Id as per W3C Distributed tracing specification.
         /// https://github.com/w3c/distributed-tracing/blob/master/trace_context/HTTP_HEADER_FORMAT.md#trace-id

@@ -1,4 +1,5 @@
 Microsoft.ApplicationInsights.TelemetryClient.InitializeInstrumentationKey(Microsoft.ApplicationInsights.Channel.ITelemetry telemetry) -> void
+Microsoft.ApplicationInsights.W3C.W3CActivityExtensions
 static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.GenerateW3CContext(this System.Diagnostics.Activity activity) -> System.Diagnostics.Activity
 static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.IsW3CActivity(this System.Diagnostics.Activity activity) -> bool
 static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.UpdateContextOnActivity(this System.Diagnostics.Activity activity) -> System.Diagnostics.Activity
@@ -13,3 +14,5 @@ static Microsoft.ApplicationInsights.W3C.W3CActivityExtensions.UpdateTelemetry(t
 Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer
 Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer.W3COperationCorrelationTelemetryInitializer() -> void
 Microsoft.ApplicationInsights.W3C.W3COperationCorrelationTelemetryInitializer.Initialize(Microsoft.ApplicationInsights.Channel.ITelemetry telemetryItem) -> void
+Microsoft.ApplicationInsights.W3C.W3CUtilities
+static Microsoft.ApplicationInsights.W3C.W3CUtilities.GenerateTraceId() -> string
